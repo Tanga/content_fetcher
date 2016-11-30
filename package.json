@@ -1,0 +1,16 @@
+{
+  "name": "content-fetcher",
+  "version": "0.1.0",
+  "description": "pulls content from a url and stores on S3",
+  "scripts": {
+    "test": "serverless invoke local -f fetch -p event.json"
+  },
+  "author": "tanga",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.6.7",
+    "request-promise": "^4.1.1",
+    "serverless": "^1.2.1",
+    "uuid": "^3.0.1"
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "url": "https://tanga2.imgix.net/https%3A%2F%2Fs3.amazonaws.com%2Ftanga-images%2F7e7e515d5ebb.png?ixlib=rails-2.1.1&w=500&h=500&fit=crop&auto=format%2Ccompress&cs=srgb&s=cd44ca851878e62d50bc9948285f4f3f",
+  "s3_metadata": {"callback": "https://tanga.com/callback/123"},
+  "s3_bucket": "content-fetcher"
+}
