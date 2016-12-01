@@ -3,13 +3,18 @@
   "version": "0.1.0",
   "description": "pulls content from a url and stores on S3",
   "scripts": {
-    "test": "serverless invoke local -f fetch -p event.json"
+    "test": "serverless invoke local -f fetch -p event.json",
+    "deploy_dev": "serverless deploy",
+    "deploy_prod": "serverless deploy --stage production",
+    "serverless": "serverless",
+    "dev-logs": "serverless logs -f fetch",
+    "prod-logs": "serverless logs -f fetch --stage production"
   },
   "author": "tanga",
   "license": "MIT",
   "dependencies": {
     "aws-sdk": "^2.6.7",
-    "request-promise": "^4.1.1",
+    "request": "^2.79.0",
     "serverless": "^1.2.1",
     "uuid": "^3.0.1"
   }
